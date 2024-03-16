@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2b2a33;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+}
+h1 {
+  text-align: center;
+}
+#search-field {
+  height: 40px;
+  border-radius: 5px;
+  width: 70%;
+}
+#search-btn {
+  background-color: seashell;
+  border-radius: 8px;
+  border-width: 0;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+#form-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+#products-container {
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+}
+.card-styling-products {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3%;
+  width: 30%;
+  gap: 1rem;
+  height: fit-content;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+  padding-top: 2%;
+  img {
+    width: 80%;
+    border-radius: 5px;
+  }
+  h3 {
+    text-align: center;
+  }
+  button {
+    background-color: seashell;
+    border-radius: 8px;
+    border-width: 0;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+}
