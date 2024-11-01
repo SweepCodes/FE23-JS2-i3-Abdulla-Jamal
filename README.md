@@ -1,4 +1,4 @@
-# FE23-JS2-i3-Abdulla-Jamal
+# Abdulla-Jamal
 # Dummy Webshop
 # Shows products
 # can search products as well
