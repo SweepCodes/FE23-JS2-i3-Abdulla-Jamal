@@ -2,5 +2,5 @@
 # Dummy Webshop
 # Shows products
 # can search products as well
-# very good website yes
+# focus on Typescript.
 # links used: https://dummyjson.com/docs/products.
